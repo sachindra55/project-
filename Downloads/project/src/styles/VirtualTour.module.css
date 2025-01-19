@@ -1,0 +1,29 @@
+.tourViewer {
+  width: 100%;
+  height: 100%;
+}
+
+.tourViewer :global(.pnlm-load-box) {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 8px;
+}
+
+.tourViewer :global(.pnlm-hotspot) {
+  background: rgba(103, 58, 183, 0.8);
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.tourViewer :global(.pnlm-hotspot:hover) {
+  background: rgba(103, 58, 183, 1);
+  transform: scale(1.1);
+}
+
+.tourViewer :global(.pnlm-tooltip) {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 14px;
+}
